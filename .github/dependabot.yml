@@ -9,7 +9,7 @@ updates:
   open-pull-requests-limit: 10
   groups:
     tests:
-      patterns: "*"
+      patterns: ["*"]
 - package-ecosystem: nuget
   directory: /src/DotNetHelloWorld.Web/
   schedule:
