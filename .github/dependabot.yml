@@ -8,7 +8,9 @@ updates:
     timezone: America/New_York
   open-pull-requests-limit: 10
   groups:
-    patterns: "*"
+    production-dependencies:
+      dependency-type: "production"
+      patterns: "*"
 - package-ecosystem: nuget
   directory: /src/DotNetHelloWorld.Web/
   schedule:
