@@ -10,6 +10,7 @@ updates:
   groups:
     tests:
       patterns: ["*"]
+      update-types: ["minor", "patch"]
 - package-ecosystem: nuget
   directory: /src/DotNetHelloWorld.Web/
   schedule:
