@@ -37,7 +37,7 @@ jobs:
     - name: .NET publish
       run: dotnet publish src/DotNetHelloWorld.Web/DotNetHelloWorld.Web.csproj -c Release -p:Version='${{ steps.gitversion.outputs.SemVer }}'
     - name: Upload package back to GitHub
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: web
         path: src/DotNetHelloWorld.Web/bin/Release
